@@ -1,0 +1,9 @@
+{
+    "jeanne2App": {
+        "TypeEmail" : {
+            "null": "",
+            "TO": "TO",
+            "FROM": "FROM"
+        }
+    }
+}

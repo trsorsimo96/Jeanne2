@@ -1,0 +1,29 @@
+
+{
+    "jeanne2App": {
+        "itineraire" : {
+            "home": {
+                "title": "Itineraires",
+                "createLabel": "Crear nuevo Itineraire",
+                "createOrEditLabel": "Crear o editar Itineraire",
+                "search": "Search for Itineraire"
+            },
+            "created": "Un nuevo Itineraire ha sido creado con el identificador {{ param }}",
+            "updated": "Un Itineraire ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Itineraire ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Itineraire {{ id }}?"
+            },
+            "detail": {
+                "title": "Itineraire"
+            },
+            "dateDepart": "Date Depart",
+            "dateArrive": "Date Arrive",
+            "voyage": "Voyage",
+            "route": "Route",
+            "classe": "Classe",
+            "company": "Company",
+            "day": "Day"
+        }
+    }
+}

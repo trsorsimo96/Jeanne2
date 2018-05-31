@@ -1,0 +1,28 @@
+
+{
+    "jeanne2App": {
+        "routes" : {
+            "home": {
+                "title": "Routes",
+                "createLabel": "Crear nuevo Routes",
+                "createOrEditLabel": "Crear o editar Routes",
+                "search": "Search for Routes"
+            },
+            "created": "Un nuevo Routes ha sido creado con el identificador {{ param }}",
+            "updated": "Un Routes ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Routes ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Routes {{ id }}?"
+            },
+            "detail": {
+                "title": "Routes"
+            },
+            "code": "Code",
+            "distance": "Distance",
+            "itinerary": "Itinerary",
+            "itinerary": "Itinerary",
+            "origin": "Origin",
+            "destination": "Destination"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+{
+    "jeanne2App": {
+        "month" : {
+            "home": {
+                "title": "Months",
+                "createLabel": "Crear nuevo Month",
+                "createOrEditLabel": "Crear o editar Month",
+                "search": "Search for Month"
+            },
+            "created": "Un nuevo Month ha sido creado con el identificador {{ param }}",
+            "updated": "Un Month ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Month ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Month {{ id }}?"
+            },
+            "detail": {
+                "title": "Month"
+            },
+            "code": "Code",
+            "text": "Text",
+            "number": "Number"
+        }
+    }
+}

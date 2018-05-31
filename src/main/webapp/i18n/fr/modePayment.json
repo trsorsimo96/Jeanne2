@@ -1,0 +1,13 @@
+{
+    "jeanne2App": {
+        "ModePayment" : {
+            "null": "",
+            "CASH": "CASH",
+            "INVOICE": "INVOICE",
+            "NONREF": "NONREF",
+            "MOMO": "MOMO",
+            "OM": "OM",
+            "CHECK": "CHECK"
+        }
+    }
+}

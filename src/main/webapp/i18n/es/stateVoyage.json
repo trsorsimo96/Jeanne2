@@ -1,0 +1,11 @@
+{
+    "jeanne2App": {
+        "StateVoyage" : {
+            "null": "",
+            "OPEN": "OPEN",
+            "FULL": "FULL",
+            "CANCEL": "CANCEL",
+            "CLOSE": "CLOSE"
+        }
+    }
+}
