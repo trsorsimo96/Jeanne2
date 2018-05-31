@@ -7,7 +7,7 @@ entity Company {
     tel String,
     email String required,
     omNumber String,
-    type TypeCompany
+    type TypeCompany,
     momoNumber String,
     systemCommision Long required
 }
@@ -118,7 +118,7 @@ enum TypeEmail{
 entity Voyage {
     numero String required,
 	datedepart ZonedDateTime,
-    datearrive ZonedDateTime
+    datearrive ZonedDateTime,
     type TypeVoyage required,
     state StateVoyage
 }
@@ -173,7 +173,7 @@ entity CompanyClasse{
 }
 
 entity Routes {
-   code String required
+   code String required,
    distance Integer
 }
 
