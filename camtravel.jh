@@ -1,4 +1,6 @@
+entity User{
 
+}
 
 entity Company {
 	code String required minlength(3) maxlength(3),
@@ -7,7 +9,7 @@ entity Company {
     tel String,
     email String required,
     omNumber String,
-    type TypeCompany
+    type TypeCompany,
     momoNumber String,
     systemCommision Long required
 }
@@ -118,7 +120,7 @@ enum TypeEmail{
 entity Voyage {
     numero String required,
 	datedepart ZonedDateTime,
-    datearrive ZonedDateTime
+    datearrive ZonedDateTime,
     type TypeVoyage required,
     state StateVoyage
 }
@@ -173,7 +175,7 @@ entity CompanyClasse{
 }
 
 entity Routes {
-   code String required
+   code String required,
    distance Integer
 }
 
@@ -198,7 +200,7 @@ relationship OneToMany {
     Car{voyage} to Voyage{car(immatriculation) required},
     Train{voyage} to Voyage{train(code) required},
     Booking{passenger} to Passenger{booking(pnr) required},
-    User {booking} to Booking{vendor(name)},
+    User {booking} to Booking{vendor(login)},
     Agency {agent} to User{agency(name)},
     Company {agent} to User{company(name)},
     Agency {deposit} to Deposit{agency(name) required},
