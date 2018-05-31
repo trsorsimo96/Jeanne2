@@ -1,0 +1,25 @@
+
+{
+    "jeanne2App": {
+        "segment" : {
+            "home": {
+                "title": "Segments",
+                "createLabel": "Crear nuevo Segment",
+                "createOrEditLabel": "Crear o editar Segment",
+                "search": "Search for Segment"
+            },
+            "created": "Un nuevo Segment ha sido creado con el identificador {{ param }}",
+            "updated": "Un Segment ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Segment ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Segment {{ id }}?"
+            },
+            "detail": {
+                "title": "Segment"
+            },
+            "status": "Status",
+            "voyage": "Voyage",
+            "booking": "Booking"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "jeanne2App": {
+        "TypeCompany" : {
+            "null": "",
+            "ROAD": "ROAD",
+            "RAIL": "RAIL",
+            "AIR": "AIR"
+        }
+    }
+}

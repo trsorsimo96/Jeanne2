@@ -1,0 +1,25 @@
+
+{
+    "jeanne2App": {
+        "fare" : {
+            "home": {
+                "title": "Fares",
+                "createLabel": "Crear nuevo Fare",
+                "createOrEditLabel": "Crear o editar Fare",
+                "search": "Search for Fare"
+            },
+            "created": "Un nuevo Fare ha sido creado con el identificador {{ param }}",
+            "updated": "Un Fare ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Fare ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Fare {{ id }}?"
+            },
+            "detail": {
+                "title": "Fare"
+            },
+            "segmentNumber": "Segment Number",
+            "price": "Price",
+            "booking": "Booking"
+        }
+    }
+}
